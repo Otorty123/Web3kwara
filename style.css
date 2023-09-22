@@ -1,0 +1,614 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sb;
+    src: url(/static/Poppins-SemiBold.ttf);
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    font-family: sb;
+}
+
+.logo img {
+    height: 50%;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.second-main  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.may ul {
+    display: flex;
+    gap: 92px;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+.first-main {
+    background: url(./Rectangle\ 1.png);
+    padding:2% 5% 5% 5%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.third-main {
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+.third-main h2 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 1.5em;
+    font-family: sb;
+}
+
+.third-main p {
+    padding-top: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    font-stretch: expanded;
+    color: gray;
+    font-family: sb;
+}
+
+li button {
+    background-color: #eb780d;
+    padding: 5px 15px;
+    color: white;
+    text-transform: capitalize;
+    font-family: sb;
+}
+
+.third-main button {
+    background-color: #eb780d;
+    padding: 10px 25px;
+    color: white;
+    margin-top: 2%;
+    border: 5px;
+    text-transform: capitalize;
+    font-family: sb;
+}
+
+.fourth-main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+}
+
+.fifth-main {
+    text-align: left;
+    text-transform: capitalize;
+    font-family: sb;
+    padding-top: 3%;
+}
+
+.fifth-main h1 {
+    font-weight: bold;
+    font-family: sb;
+}
+
+.fifth-main p {
+    color: gray;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.sixth-main img {
+    height: 100%;
+}
+
+.seventh-main h1 {
+    text-align: center;
+    padding: 15% 0 5% 0;
+    text-transform: capitalize;
+}
+
+.eighth-main {
+    display: flex;
+    margin: 0 25px;
+}
+
+.ninth-main {
+    text-align: justify;
+    
+}
+
+
+.tenth-main,
+.ninth-main,
+.eleventh-main {
+    box-shadow: -20px 20px 30px -35px ;
+    padding-bottom: 2%;
+    align-items: center;
+    justify-content: center
+}
+
+.ninth-main img,
+.tenth-main img,
+.eleventh-main img {
+    width:90% ;
+}
+
+.ninth-main h3,
+.tenth-main h3,
+.eleventh-main h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.ninth-main p,
+.tenth-main p,
+.eleventh-main p {
+    font-size: 12px;
+    font-family: sb;
+    font-weight: lighter;
+    color: gray;
+}
+
+.twelveth-main {
+    padding-top: 10%;
+    background: linear-gradient(#eb780d, #fff);
+    margin: 5% 0 0 0;
+}
+
+.twelveth-main h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.thirteenth-main,
+.twenty-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourteenth-main,
+.sixteenth-main,
+.eighteenth-main,
+.twentyone-main,
+.twentythree-main,
+.twentyfive-main {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sb;
+} 
+.fourteenth-main h5,
+.sixteenth-main h5,
+.eighteenth-main h5,
+.twentyone-main h5,
+.twentythree-main h5,
+.twentyfive-main h5{
+    color: gray;
+    font-family: sb;
+    font-weight: lighter;
+} 
+.fourteenth-main img,
+.sixteenth-main img,
+.eighteenth-main img,
+.twentyone-main img,
+.twentythree-main img,
+.twentyfive-main img {
+    height: 50%;
+} 
+
+.theown {
+    padding-top: 5%;
+}
+
+.fifteenth-main img,
+.seventeenth-main img,
+.nineteenth-main img,
+.twentytwo-main img,
+.twentyfour-main img,
+.twentysix-main img  {
+    height: 10%;
+    width: 10%;
+    padding-top: 5%;
+}
+
+.twentyseven-main {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding-top: 10%;
+
+
+}
+
+.twentyeight-main img {
+    height: 70%;
+    padding: 0 0 0 5%;
+}
+
+.twentynine-main {
+    padding-top: 3%;
+}
+
+.twentynine-main h2 {
+    text-transform: capitalize;
+    font-family: sb;
+}
+
+.twentynine-main p {
+    text-transform: capitalize;
+    font-family: sb;
+    font-size: 12px;
+    padding-top: 5%;
+}
+
+.twentynine-main button {
+    background-color: #eb780d;
+    padding: 15px 30px;
+    margin-top: 15%;
+    color: white;
+    
+    border: 5px;
+    text-transform: capitalize;
+    font-family: sb;
+}
+
+.thirty-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    text-transform: capitalize;
+    font-family: sb;
+}
+
+.thirtyone-main h4 {
+    font-size: 20px;
+    padding-top: 15%;
+}
+
+.thirtytwo-main img{
+    height: 10%;
+    width: 20%;
+    padding-top: 10%;
+} 
+
+.thirtythree-main {
+    line-height: 2em;
+}
+
+@media screen and (max-width: 950px){
+
+    
+body {
+    font-size: 12px;
+    font-family: sb;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    height: 30%;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.second-main  {
+    display: flex;
+    justify-content: center;
+}
+
+.may ul {
+    display: none;
+   
+}
+.first-main {
+    background: url(./Rectangle\ 1.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.third-main {
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+.third-main h2 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 1em;
+    font-family: sb;
+}
+
+.third-main p {
+    padding-top: 5px;
+    font-weight: lighter;
+    font-size: 6px;
+    line-height: 1em;
+    text-transform: capitalize;
+    font-stretch: expanded;
+    color: gray;
+    font-family: sb;
+}
+
+li button {
+    background-color: #eb780d;
+    padding: 2px 5px;
+    color: white;
+    text-transform: capitalize;
+    font-family: sb;
+    font-size: 5px;
+}
+
+.may {
+    display: flex;
+}
+
+.third-main button {
+    background-color: #eb780d;
+    padding: 5px 15px;
+    font-size: 5px;
+    color: white;
+    margin-top: 1%;
+    border: 5px;
+    text-transform: capitalize;
+    font-family: sb;
+}
+
+.fourth-main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    justify-content: center;
+}
+
+.fifth-main {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sb;
+    padding-top: 1%;
+    font-size: 10px;
+}
+
+.fifth-main h1 {
+    font-weight: bold;
+    font-family: sb;
+}
+
+.fifth-main p {
+    color: gray;
+    font-size: 8px;
+    line-height: 1em;
+    padding-bottom: 2%;
+}
+
+.sixth-main img {
+    height: 100%;
+    width: 100%;
+}
+
+.seventh-main h1 {
+    text-align: center;
+    padding:2% 0;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.eighth-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.ninth-main {
+    text-align: justify;
+}
+
+
+.tenth-main,
+.ninth-main,
+.eleventh-main {
+    box-shadow: -20px 20px 30px -35px ;
+    padding-bottom: 12%;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+.ninth-main img,
+.tenth-main img,
+.eleventh-main img {
+    width:100% ;
+    height: 100%;
+}
+
+.ninth-main h3,
+.tenth-main h3,
+.eleventh-main h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 2px 0;
+    
+}
+
+.ninth-main p,
+.tenth-main p,
+.eleventh-main p {
+    font-size: 8px;
+    font-family: sb;
+    font-weight: lighter;
+    color: gray;
+}
+
+.twelveth-main {
+    padding-top: 6%;
+    background: linear-gradient(#eb780d, #fff);
+    margin: 2% 0 0 0;
+}
+
+.twelveth-main h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+.thirteenth-main,
+.twenty-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fourteenth-main,
+.sixteenth-main,
+.eighteenth-main,
+.twentyone-main,
+.twentythree-main,
+.twentyfive-main {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sb;
+    padding-bottom: 5%;
+} 
+.fourteenth-main h5,
+.sixteenth-main h5,
+.eighteenth-main h5,
+.twentyone-main h5,
+.twentythree-main h5,
+.twentyfive-main h5{
+    color: gray;
+    font-family: sb;
+    font-weight: lighter;
+} 
+.fourteenth-main img,
+.sixteenth-main img,
+.eighteenth-main img,
+.twentyone-main img,
+.twentythree-main img,
+.twentyfive-main img {
+    height: 50%;
+    width: 50%;
+} 
+
+.theown {
+    padding-top: 5%;
+}
+
+.fifteenth-main img,
+.seventeenth-main img,
+.nineteenth-main img,
+.twentytwo-main img,
+.twentyfour-main img,
+.twentysix-main img  {
+    height: 5%;
+    width: 5%;
+    padding-top: 2%;
+}
+
+.twentyseven-main {
+    display: flex;
+    background-color: aqua;
+    padding-top: 5%;
+    flex-direction: column;
+
+}
+
+.twentyeight-main img {
+    height: 70%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 13%;
+}
+
+.twentynine-main {
+    padding-top: 2%;
+}
+
+.twentynine-main h2 {
+    text-transform: capitalize;
+    font-family: sb;
+    text-align: center;
+    font-size: 12px;
+}
+
+.twentynine-main p {
+    text-transform: capitalize;
+    font-family: sb;
+    font-size: 8px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.twentynine-main button {
+    background-color: #eb780d;
+    padding: 5px 15px;
+    color: white;
+    margin: 2% 35% 0;
+    text-align: center;
+    border: 2px;
+    text-transform: capitalize;
+    font-family: sb;
+    font-size: 6px;
+}
+
+.thirty-main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5% 0;
+    text-transform: capitalize;
+    font-family: sb;
+    text-align: center;
+}
+
+.thirtyone-main h4 {
+    font-size: 10px;
+    padding-top: 2%;
+}
+
+.thirtytwo-main img{
+    height: 5%;
+    width: 5%;
+    padding-top: 1%;
+} 
+
+.thirtythree-main {
+    line-height: 1.5em;
+    padding-top: 1%;
+}
+}
